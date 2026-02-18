@@ -434,6 +434,7 @@ rules:
       - watch
   - apiGroups:
       - datadoghq.com
+      - eks.amazonaws.com
       - karpenter.azure.com
     resources:
       - '*'
@@ -448,6 +449,8 @@ rules:
       - list
       - watch
   - apiGroups:
+      - eks.amazonaws.com
+      - eks.amazonaws.com
       - external.metrics.k8s.io
       - karpenter.k8s.aws
     resources:
@@ -859,6 +862,7 @@ rules:
       - watch
   - apiGroups:
       - datadoghq.com
+      - eks.amazonaws.com
       - karpenter.azure.com
       - karpenter.k8s.aws
       - karpenter.sh
